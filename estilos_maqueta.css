@@ -279,27 +279,27 @@ footer{
 				}
 
 				#contenedor{
-					width:390px;
+					width:auto;
 					
 				}
 
 				#superior{/*BLOQUE DE IMAGEN*/
-					width: 360px;
+					width: 300px;
 					height: 140px;
-				    background-size: 360px 140px;
-				    margin: 10px auto 10px auto;
+				    background-size: 300px 140px;
+				    
 				}
 
 				#contenido{
-				    width:390px;
+				    width:90%;
 			    }
 
 			    #botonera{
-			    	width: 360px;
+			    	width: 330px;
 			    }
 
 			    #botonera li {
-					margin-left: 18px;
+					margin-left: 12px;
 				}
 
 				#botonera li a{
@@ -307,13 +307,14 @@ footer{
 				}
 
                 #inferior{/*BLOQUE PARA TEXTOS*/
-                    width: 360px;
+                    width: auto;
                     height: auto;
   				}
 
 				.bloque{/*CLASE DE BLOQUES DE TEXTO*/
-					float: none;
-				    margin-left: 75px;
+					display: block;
+					margin: 10px auto 10px auto;
+					float: inherit;
 				}
 
 				#bloque1 {
@@ -332,7 +333,12 @@ footer{
 					font-size: 16px;
 					width: auto;
 				}
-		
+				
+				#direccion{
+					font-size: 15px;
+
+					
+				}
 		}
 
 
