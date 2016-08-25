@@ -18,7 +18,7 @@
 			<ul>
 				<li><a href="index.html"> Inicio </a></li>
 				<li><a href="quienessomos.html"> Quienes Somos </a></li>
-				<li><a href="#"> Contacto </a></li>
+				<li class="actual"><a class="actual" href="#"> Contacto </a></li>
 				<li><a href="consulta_virtual.php"> Consulta Virtual </a></li>
 			</ul>
 		    </nav>

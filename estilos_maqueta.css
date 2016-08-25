@@ -95,23 +95,29 @@ textarea{
 	width: 550px;
 	height: 30px;
 	background-color: none;
-	border-radius: 5px;	
-	border: 1px solid black;
+	
 }
 
 #botonera ul {
-		margin-bottom: 0px;
-		margin-top: 0px;
+		margin:auto;
 		padding-left: 0px;
-
 }
 #botonera li {
 	list-style: none;
 	display: inline-block;
 	line-height: 30px;
-	float: left;
-    margin-left: 45px;
-	
+	margin-left: 20px;
+
+}
+/*ESTILAR BOTONERA*/
+#botonera li.actual{
+	border: 1px solid black;
+	border-bottom: 1px dotted black;
+	border-radius: 10px 10px 0px 0px; 
+}
+
+#botonera li a.actual{
+	margin: auto 5px;
 }
 
 #botonera li a{
@@ -122,6 +128,7 @@ textarea{
 	font-size: 15px;
 	text-decoration: none;
 }
+
 
 #estudio{
 	font-family: 'El Messiri', sans-serif;
@@ -217,6 +224,8 @@ footer{
 
 #acreditado{
 	font-family: latothin, verdana;
+	margin-left:10px;
+	margin-right:10px; 
 }
 
 
@@ -295,11 +304,16 @@ footer{
 			    }
 
 			    #botonera{
-			    	width: 330px;
+			    	width: auto;
+			    	margin-right: 0px;
+			    	margin-left: 0px;
 			    }
 
+			    #botonera ul {
+			    	align-items: center;
+			    }
 			    #botonera li {
-					margin-left: 12px;
+					margin-left: 5px;
 				}
 
 				#botonera li a{
