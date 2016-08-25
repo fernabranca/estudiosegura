@@ -90,7 +90,6 @@ textarea{
 
 #botonera{
 	margin: 0 auto;
-	margin-bottom: 0px!important;
 	text-align: center;
 	width: 550px;
 	height: 30px;
@@ -118,6 +117,12 @@ textarea{
 
 #botonera li a.actual{
 	margin: auto 5px;
+}
+
+#botonera li a:hover{
+	background-color: #a64dff;
+	border: 1px dotted black;
+	border-radius: 5px;
 }
 
 #botonera li a{
